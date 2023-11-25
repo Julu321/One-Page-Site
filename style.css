@@ -189,7 +189,7 @@ nav{
   padding:5px;
   font-weight:600;
   grid-column: 1;
-  grid-row: 4;
+  grid-row: 2;
   margin: auto;
   margin-top: 2rem;
   display: flex;
@@ -197,6 +197,9 @@ nav{
   justify-content: center;
   
 }
+
+
+
 
 #section1 {
   display: grid;
@@ -210,27 +213,27 @@ nav{
   font-weight:600;
   font-size: 3rem;
   text-align: center;
+  margin-top: 1em;
+  
 }
 
 #subheader1{
   color: var(---color01);
   font-size: 2rem;
-  grid-column: 1;
-  grid-row: 2;
   text-align: center;
 }
 
 #paragraph1{
-  grid-column: 1;
-  grid-row: 3;
   margin-top: 2rem;
   color: var(---color01);
   text-align: center;
   font-size: 1.2rem;
+ 
 }
 
 #picture1{
   grid-row: 1/5;
+  grid-column: 2;
   margin: auto;
   width: 10rem;
   height: 10rem;
