@@ -202,6 +202,7 @@ nav{
   display: grid;
   grid-template-columns: 1fr 1fr;
   margin: 6rem;
+  height: 30em;
 }
 
 #heading1{
@@ -233,5 +234,28 @@ nav{
   margin: auto;
   width: 10rem;
   height: 10rem;
+}
+
+/* 2nd Section */
+
+#section2 {
+  background-color: var(---color01);
+  color: var(---color03);
+  justify-content: center;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  display: grid;
+  grid-template-columns: 250px 250px 250px;
+  grid-column-gap:40px;
+  
+}
+
+.miniheadline{
+  margin: auto;
+}
+
+.miniparagraph{
+  justify-content: center;
+  text-align: center;
 }
 
